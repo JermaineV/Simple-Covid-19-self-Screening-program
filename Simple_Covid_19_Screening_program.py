@@ -64,7 +64,7 @@ def Statistics():
 
         if option == 'y' or option == 'Y':
             other = int(
-                input("To select a random country, type a number from 0 to 9\n"))
+            input("To select a random country, type a number from 0 to 9\n"))
         while other < 0 or other > 9:
             print("\ninvalid selection please try again:")
 
